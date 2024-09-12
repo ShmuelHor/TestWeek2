@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+</head>
+<body>
+    <section id="main-1">
+        <div id="header">
+            <h1 id="text-header">BATTALION FORCE MANAGEMENT</h1>
+            <div class="underline"></div>
+        </div>
+        <form id="form">
+            <input id="full-name-input" class="form-form" type="text" placeholder="Full Name">
+            <input id="rank-input" class="form-form" type="text" placeholder="Rank">
+            <input id="position-input" class="form-form" type="text" placeholder="Position">
+            <input id="platoon-input" class="form-form" type="text" placeholder="Platoon">
+            <input id="mission-time-input" class="form-form" type="number" min="0" placeholder="Mission Time (seconds)">
+            <select id="status-select" class="form-form">
+                <option value="Active">Active</option>
+                <option value="Reserve">Reserve</option>
+                <option value="Retired">Retired</option>
+            </select>
+            <button id="submit-button" class="form-form">Add Personnel</button>
+        </form>
+        <div id="second-title">
+            <h1 id="text-second-title">FORCES OVERVIEW</h1>
+            <div class="underline"></div>
+        </div>
+        <div id="table-div">
+            <table >
+                <thead>
+                    <tr >
+                        <th id="a">
+                            <button id="but-full-name">Full Name</button>
+                        </th>
+                        <th>RANK</th>
+                        <th>POSITION</th>
+                        <th>PLATOON</th>
+                        <th>STATUS</th>
+                        <th>ACTIONS</th>
+                    </tr>
+                </thead>
+                <thead id="table">
+
+                </thead>
+             </table>
+        </div>
+    <section id="main-2"></section>
+
+    <script src='./script.js'></script>
+</body>
+</html>
